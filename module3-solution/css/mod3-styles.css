@@ -1,1 +1,64 @@
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link{
+	text-decoration: none;
+}
 
+#top-nav{
+	background-color: red;
+	clear:both;
+}
+
+@media (min-width: 768px){
+	#top-nav{
+		height: 4.3em;
+	}
+}
+
+.navbar-brand h1{
+	margin: 0px;
+	color: #FFFFFF;
+}
+
+
+body h2{
+	color: #FFFFFF;
+	margin-top: -5px;
+}
+
+#box{
+	background-color: red;
+	width: 80vw; 
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	padding-left: 20px;
+	overflow: auto;
+}
+
+#box p{
+	color: #FFFFFF;
+}
+
+.title{
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 5px;
+	margin-bottom: -1px;
+}
+
+.navbar-header button{
+	margin-top: 17px;
+}
+
+li{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#nav-list {
+  padding: 7.5px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.8em;
+  background-color: #990000;
+}
